@@ -92,7 +92,7 @@ IAA03_fast_math is a single-header math kernel designed to eliminate the "Trigon
     <td><details>
   <summary>📊 Click to view detailed Error Distribution Plots</summary>
   <br>
-  <img src="assets/accurate_360plot.png" width="600">
+  <img src="accurate_360plot.png" width="600">
   <p><i>Note: Observe how the error collapses to zero at the 0, 90, 180, and 270 degree axes.</i></p>
 </details></td>
   </tr>
@@ -103,7 +103,7 @@ IAA03_fast_math is a single-header math kernel designed to eliminate the "Trigon
     <td><details>
   <summary>📊 Click to view detailed Error Distribution Plots</summary>
   <br>
-  <img src="assets/fast_360plot.png" width="600">
+  <img src="fast_360plot.png" width="600">
   <p><i>Note: Observe how the error collapses to zero at the 0, 90, 180, and 270 degree axes.</i></p>
 </details></td></td>
   </tr>
