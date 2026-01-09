@@ -83,17 +83,29 @@ IAA03_fast_math is a single-header math kernel designed to eliminate the "Trigon
     <th>Type</th>
     <th>Max error radians(degrees)</th>
     <th>Avrg error radians(degrees)</th>
+    <th>Absolute error & Symmetry Verification</th>
   </tr>
   <tr>
     <th>High Accuracy</th>
     <th>2.57492e-05 radians (1.47532e-3 degrees)</th>
-    <th>1.12802e-05 radians (6.46307e-4 degrees)</th>
+    <th>1.05749e-05 radians (6.059e-4 degrees)</th>
+    <td><details>
+  <summary>📊 Click to view detailed Error Distribution Plots</summary>
+  <br>
+  <img src="assets/accurate_360plot.png" width="600">
+  <p><i>Note: Observe how the error collapses to zero at the 0, 90, 180, and 270 degree axes.</i></p>
+</details></td>
   </tr>
   <tr>
-    <td>Fast</th>
-    <td>4.37665e-3 radians (2.50764e-1 degrees)</th>
-    <td>2.09574e-3 radians (1.20077e-1 degrees)</th>
+    <th>Fast</th>
+    <th>4.37665e-3 radians (2.50764e-1 degrees)</th>
+    <th>2.09574e-3 radians (1.20077e-1 degrees)</th>
+    <td><details>
+  <summary>📊 Click to view detailed Error Distribution Plots</summary>
+  <br>
+  <img src="assets/fast_360plot.png" width="600">
+  <p><i>Note: Observe how the error collapses to zero at the 0, 90, 180, and 270 degree axes.</i></p>
+</details></td></td>
   </tr>
 </table>
 
-graph 
