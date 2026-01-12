@@ -1,6 +1,6 @@
 # IAA03_fast_math
 
-## High-Performance Branchless Trigonometry for C++11.
+## High-Performance Branchless Trigonometry for C++14.
 
 IAA03_fast_math is a single-header math kernel designed to eliminate the "Trigonometry Tax" in high-throughput systems (Physics Engines, Audio DSP, and ML Pre-processing). By utilizing Branchless Octant Folding , ILP and SIMD (AVX2/SSE4.1), it achieves up to a 178x per-element throughput speedup over std::atan2 while being IEEE 754 compliant.
 ### Key features:
