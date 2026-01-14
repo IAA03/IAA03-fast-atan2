@@ -15,7 +15,7 @@ IAA03_fast_math is a single-header math kernel designed to eliminate the "Trigon
 <table style="border: 2px solid blue;border-radius: 2px">
   <tr>
     <th>Implementation</th>
-    <th>Time(max/min) (1B xy pair processed)</th>
+    <th>Average Time(1B xy pair processed)</th>
     <th>Per Element</th>
     <th>Variance(max / min)</th>
     <th>execution time Speedup</th>
